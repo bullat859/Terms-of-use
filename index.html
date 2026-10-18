@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    
+
     <!-- SEO & Meta Tags -->
     <title>Terms of Use - Dynamic Edge Gesture Control</title>
-    <meta name="description" content="Terms of Use for Dynamic Edge Gesture Control. Legal conditions, acceptable use, intellectual property protections, and liability disclaimers.">
+    <meta name="description" content="Official Terms of Use for Dynamic Edge Gesture Control. Covers license grant, acceptable use, intellectual property, AI/ML restrictions, disclaimer, indemnity, governing law, dispute resolution, and user rights.">
     <meta name="theme-color" content="#030712">
     <meta property="og:title" content="Terms of Use - Dynamic Edge Gesture Control">
-    <meta property="og:description" content="Terms of use and conditions governing access to and usage of Dynamic Edge Gesture Control.">
+    <meta property="og:description" content="Legal terms and conditions governing access to and usage of Dynamic Edge Gesture Control by Madhusudan Payra.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="icon.png">
-    
-    <!-- Browser Tab Icon (Favicon) -->
+
+    <!-- Browser Tab Icon -->
     <link rel="icon" type="image/png" href="icon.png">
     <link rel="apple-touch-icon" href="icon.png">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -47,7 +47,7 @@
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
             background-color: #030712;
-            overflow-x: clip; 
+            overflow-x: clip;
         }
         .glass-panel {
             background: rgba(17, 24, 39, 0.75);
@@ -73,49 +73,29 @@
             left: 0;
             pointer-events: none;
             z-index: -1;
-            background: 
+            background:
                 radial-gradient(circle at 15% 15%, rgba(59, 130, 246, 0.12) 0%, transparent 40%),
                 radial-gradient(circle at 85% 75%, rgba(139, 92, 246, 0.12) 0%, transparent 40%),
                 radial-gradient(circle at 50% 50%, rgba(3, 7, 18, 1) 0%, rgba(3, 7, 18, 1) 100%);
         }
-        /* Custom scrollbar */
-        ::-webkit-scrollbar {
-            width: 6px;
-            height: 6px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #030712;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #1e293b;
-            border-radius: 9999px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #3b82f6;
-        }
-        
-        /* Hide scrollbar for quick links */
-        .hide-scrollbar::-webkit-scrollbar {
-            display: none;
-        }
-        .hide-scrollbar {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: #030712; }
+        ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 9999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #3b82f6; }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .policy-section { scroll-margin-top: 130px; }
+        @media (min-width: 640px) { .policy-section { scroll-margin-top: 145px; } }
 
-        /* Offset scrolling so sticky headers don't cover content */
-        .policy-section {
-            scroll-margin-top: 130px; 
+        @keyframes borderPulse {
+            0%, 100% { border-color: rgba(245, 158, 11, 0.30); }
+            50%       { border-color: rgba(245, 158, 11, 0.60); }
         }
-        @media (min-width: 640px) {
-            .policy-section {
-                scroll-margin-top: 145px;
-            }
-        }
+        .critical-border { animation: borderPulse 3s ease-in-out infinite; }
     </style>
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-blue-500 selection:text-white relative antialiased">
-    
+
     <!-- Reading Progress Bar -->
     <div class="fixed top-0 left-0 w-full h-1 z-[60] bg-slate-900" aria-hidden="true">
         <div id="progressBar" class="h-full bg-gradient-to-r from-blue-400 via-indigo-500 to-amber-500 w-0 transition-all duration-150 ease-out"></div>
@@ -123,198 +103,270 @@
 
     <div class="glow-bg" aria-hidden="true"></div>
 
-    <!-- MAIN STICKY HEADER (App Logo & Name) -->
+    <!-- STICKY HEADER -->
     <header class="sticky top-0 z-50 w-full bg-[#030712]/95 backdrop-blur-xl border-b border-slate-800 shadow-lg shadow-black/40">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 flex items-center justify-between w-full">
             <div class="flex items-center gap-3">
-                <!-- App Icon Container -->
                 <div class="w-8 h-8 sm:w-9 sm:h-9 rounded-xl overflow-hidden shadow-md shadow-blue-500/20 shrink-0 border border-white/15 bg-slate-900">
-                    <img 
-                        src="icon.png" 
-                        alt="Dynamic Edge Gesture Control App Icon" 
-                        class="w-full h-full object-cover"
-                        onerror="this.onerror=null; this.src='https://play-lh.googleusercontent.com/com.m.payra.gesture.control.app';"
-                    />
+                    <img src="icon.png" alt="Dynamic Edge Gesture Control App Icon" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='https://play-lh.googleusercontent.com/com.m.payra.gesture.control.app';">
                 </div>
-
-                <span class="text-[14px] sm:text-[16px] font-bold text-slate-100 truncate tracking-tight">
-                    Dynamic Edge Gesture Control
-                </span>
+                <span class="text-[14px] sm:text-[16px] font-bold text-slate-100 truncate tracking-tight">Dynamic Edge Gesture Control</span>
             </div>
-
-            <a href="https://bullat859.github.io/privacy-policy/" class="text-xs sm:text-sm font-medium text-slate-400 hover:text-blue-400 transition-colors">
-                Privacy Policy &rarr;
-            </a>
+            <a href="https://bullat859.github.io/privacy-policy/" class="text-xs sm:text-sm font-medium text-slate-400 hover:text-blue-400 transition-colors">Privacy Policy &rarr;</a>
         </div>
     </header>
 
-    <!-- Main Content Container -->
+    <!-- Main Content -->
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 sm:pb-16 relative pt-8 sm:pt-12">
-        
+
         <!-- Hero Header -->
         <div class="text-center mb-8 sm:mb-12">
-            <!-- Center Large Icon Preview -->
             <div class="inline-block p-1 rounded-2xl bg-gradient-to-b from-blue-500/30 to-purple-500/30 border border-white/10 shadow-xl shadow-blue-500/10 mb-4">
                 <img src="icon.png" alt="App Icon" class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl object-cover shadow-inner" onerror="this.onerror=null; this.src='https://play-lh.googleusercontent.com/com.m.payra.gesture.control.app';">
             </div>
-
             <h1 class="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-200 to-blue-400 bg-clip-text text-transparent mb-3 leading-tight">
                 Terms of Use
             </h1>
-            <p class="text-slate-400 text-sm sm:text-base max-w-2xl mx-auto mb-6">
+            <p class="text-slate-400 text-sm sm:text-base max-w-2xl mx-auto mb-2">
                 Please review these Terms carefully before using Dynamic Edge Gesture Control. By installing or accessing the application, you agree to be bound by these terms.
             </p>
-
-            <!-- Google Play Store Button -->
+            <p class="text-slate-500 text-xs sm:text-sm max-w-xl mx-auto mb-6">
+                <strong class="text-slate-400">Effective Date:</strong> October 2026
+            </p>
             <div class="flex justify-center">
                 <a href="https://play.google.com/store/apps/details?id=com.m.payra.gesture.control.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 px-4 sm:px-5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 hover:border-blue-500/50 text-slate-200 text-xs sm:text-sm font-semibold transition-all hover:bg-slate-800 shadow-md transform hover:-translate-y-0.5" aria-label="Get the app on Google Play">
-                    <svg class="w-4 h-4 sm:w-5 sm:h-5 text-emerald-400 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L18.81,13.12C19.86,12.55 19.86,11.45 18.81,10.88L16.81,8.88L14.81,10.88L14.81,13.12L16.81,15.12M13.69,12L15.39,8.81L13.69,12M13.69,12L15.39,15.19L3.84,21.85L13.69,12Z"/>
-                    </svg>
+                    <svg class="w-4 h-4 sm:w-5 sm:h-5 text-emerald-400 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L18.81,13.12C19.86,12.55 19.86,11.45 18.81,10.88L16.81,8.88L14.81,10.88L14.81,13.12L16.81,15.12M13.69,12L15.39,8.81L13.69,12M13.69,12L15.39,15.19L3.84,21.85L13.69,12Z"/></svg>
                     <span>Get it on Google Play</span>
                     <svg class="w-3 h-3 sm:w-3.5 sm:h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
                 </a>
             </div>
         </div>
 
-        <!-- Quick Terms Highlights (TL;DR) Banner -->
+        <!-- TL;DR Highlights -->
         <section id="highlights" class="glass-panel p-5 sm:p-7 rounded-2xl sm:rounded-3xl border border-blue-500/30 mb-8 sm:mb-10 shadow-xl relative overflow-hidden">
             <div class="flex items-center gap-2.5 mb-4">
-                <span class="text-xl sm:text-2xl text-blue-400" aria-hidden="true">✨</span>
+                <span class="text-xl sm:text-2xl text-blue-400" aria-hidden="true">&#10024;</span>
                 <h2 class="text-base sm:text-xl font-bold text-slate-100">Key Highlights (TL;DR)</h2>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-xs sm:text-sm text-slate-300">
                 <div class="flex items-start gap-2.5 p-3 rounded-xl bg-slate-900/60 border border-slate-800">
-                    <span class="text-blue-400 font-bold text-sm">✦</span>
-                    <p><strong class="text-slate-100">100% On-Device:</strong> Gesture detection and voice command parsing run completely offline on your device hardware.</p>
+                    <span class="text-blue-400 font-bold text-sm">&#10022;</span>
+                    <p><strong class="text-slate-100">100% On-Device:</strong> Gesture detection, voice command parsing, and all triggers run entirely offline on your hardware with zero cloud sync.</p>
                 </div>
                 <div class="flex items-start gap-2.5 p-3 rounded-xl bg-slate-900/60 border border-slate-800">
-                    <span class="text-blue-400 font-bold text-sm">✦</span>
-                    <p><strong class="text-slate-100">Zero Surveillance:</strong> No keystroke logging, screen inspection, password interception, or personal data mining.</p>
+                    <span class="text-blue-400 font-bold text-sm">&#10022;</span>
+                    <p><strong class="text-slate-100">Zero Surveillance:</strong> No keystroke logging, screen inspection, password capture, or personal data mining — ever.</p>
                 </div>
                 <div class="flex items-start gap-2.5 p-3 rounded-xl bg-slate-900/60 border border-slate-800">
-                    <span class="text-blue-400 font-bold text-sm">✦</span>
-                    <p><strong class="text-slate-100">Transparent Billing:</strong> In-app purchases, subscriptions, and lifetime unlocks are securely handled exclusively by Google Play.</p>
+                    <span class="text-blue-400 font-bold text-sm">&#10022;</span>
+                    <p><strong class="text-slate-100">Transparent Billing:</strong> All in-app purchases, subscriptions, and lifetime unlocks are handled exclusively and securely via Google Play Billing.</p>
                 </div>
                 <div class="flex items-start gap-2.5 p-3 rounded-xl bg-slate-900/60 border border-slate-800">
-                    <span class="text-blue-400 font-bold text-sm">✦</span>
-                    <p><strong class="text-slate-100">Strict IP & Anti-AI Scraping:</strong> Strict prohibition against reverse engineering, decompilation, and training AI/ML models on app code, data, or output.</p>
+                    <span class="text-blue-400 font-bold text-sm">&#10022;</span>
+                    <p><strong class="text-slate-100">Strict IP &amp; Anti-AI:</strong> Absolute prohibition against reverse engineering, decompilation, and training AI/ML models on our code or output.</p>
                 </div>
-                <div class="flex items-start gap-2.5 p-3 rounded-xl bg-slate-900/60 border border-slate-800 sm:col-span-2">
-                    <span class="text-blue-400 font-bold text-sm">✦</span>
-                    <p><strong class="text-slate-100">Complete Legal Immunity:</strong> The software is provided "AS IS". The developer bears zero legal liability for any damages, device issues, disputes, or indirect losses.</p>
+                <div class="flex items-start gap-2.5 p-3 rounded-xl bg-slate-900/60 border border-slate-800">
+                    <span class="text-blue-400 font-bold text-sm">&#10022;</span>
+                    <p><strong class="text-slate-100">Personal Use Only:</strong> This app is licensed for personal, non-commercial use. No commercial redistribution, resale, or enterprise deployment without written consent.</p>
+                </div>
+                <div class="flex items-start gap-2.5 p-3 rounded-xl bg-slate-900/60 border border-slate-800">
+                    <span class="text-blue-400 font-bold text-sm">&#10022;</span>
+                    <p><strong class="text-slate-100">Complete Legal Immunity:</strong> Software is provided "AS IS". Developer bears zero liability for any damages, device issues, or indirect losses.</p>
                 </div>
             </div>
         </section>
 
-        <!-- SECONDARY STICKY NAVBAR -->
-        <nav class="sticky top-[52px] sm:top-[64px] z-40 mb-8 sm:mb-10 py-2 sm:py-3 bg-[#030712]/95 backdrop-blur-xl border-b border-t border-slate-800/50 mx-[-16px] px-[16px] sm:mx-0 sm:px-4 sm:rounded-2xl shadow-lg shadow-black/30 transition-all">
+        <!-- SECONDARY STICKY NAV -->
+        <nav class="sticky top-[52px] sm:top-[64px] z-40 mb-8 sm:mb-10 py-2 sm:py-3 bg-[#030712]/95 backdrop-blur-xl border-b border-t border-slate-800/50 mx-[-16px] px-[16px] sm:mx-0 sm:px-4 sm:rounded-2xl shadow-lg shadow-black/30">
             <div class="flex overflow-x-auto hide-scrollbar gap-2 sm:gap-2.5 w-full justify-start items-center">
-                <a href="#accessibility" class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Accessibility</a>
-                <a href="#voice" class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Voice & Mic</a>
-                <a href="#overlays" class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Overlays</a>
-                <a href="#billing" class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Billing</a>
-                <a href="#thirdparty" class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Third-Party</a>
-                <a href="#automations" class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Automations</a>
-                <a href="#storage" class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Local Data</a>
-                <a href="#reverse-engineering" class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-amber-500/20 border border-amber-500/40 text-xs sm:text-sm font-semibold text-amber-300 hover:bg-amber-500/30 transition-all">Anti-Reverse Eng & AI</a>
-                <a href="#liability" class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Disclaimer</a>
-                <a href="#indemnity" class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Indemnity</a>
-                <a href="#compliance" class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Severability</a>
+                <a href="#acceptance"     class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Acceptance</a>
+                <a href="#license"        class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">License</a>
+                <a href="#acceptable-use" class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Acceptable Use</a>
+                <a href="#voice"          class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Voice &amp; Mic</a>
+                <a href="#camera"         class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Camera</a>
+                <a href="#overlays"       class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Overlays</a>
+                <a href="#billing"        class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Billing</a>
+                <a href="#thirdparty"     class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Third-Party</a>
+                <a href="#automations"    class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Automations</a>
+                <a href="#storage"        class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Local Data</a>
+                <a href="#reverse-engineering" class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-amber-500/20 border border-amber-500/40 text-xs sm:text-sm font-semibold text-amber-300 hover:bg-amber-500/30 transition-all">Anti-RE &amp; AI</a>
+                <a href="#beta"           class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Beta</a>
+                <a href="#age"            class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Age &amp; Safety</a>
+                <a href="#liability"      class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Disclaimer</a>
+                <a href="#indemnity"      class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Indemnity</a>
+                <a href="#updates"        class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Updates</a>
+                <a href="#termination"    class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Termination</a>
+                <a href="#disputes"       class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Disputes</a>
+                <a href="#export"         class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Export</a>
+                <a href="#compliance"     class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-slate-800/60 border border-slate-600/50 text-xs sm:text-sm font-medium text-slate-300 hover:bg-blue-500/20 hover:text-blue-300 hover:border-blue-500/40 transition-all">Severability</a>
+                <a href="#contact"        class="whitespace-nowrap px-3.5 py-1.5 rounded-full bg-blue-500/20 border border-blue-500/40 text-xs sm:text-sm font-semibold text-blue-300 hover:bg-blue-500/30 transition-all">Contact</a>
             </div>
         </nav>
 
         <!-- Main Document Body -->
         <main class="space-y-6 sm:space-y-8">
 
-            <!-- Section 1: AccessibilityService -->
-            <section id="accessibility" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+            <!-- Section 1: Acceptance of Terms -->
+            <section id="acceptance" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
                 <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
                 <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
                     <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">01</span>
-                    AccessibilityService API Disclosure
+                    Acceptance of Terms
                 </h2>
                 <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
-                    <p>
-                        EDGE uses Android's AccessibilityService API strictly to perform user-configured navigation gestures (such as Back, Home, Recent Apps, Pull Down Notifications, Open Quick Settings, Lock Screen, Power Dialog, and Split Screen).
-                    </p>
+                    <p>By downloading, installing, enabling, configuring, or using Dynamic Edge Gesture Control (the "App", "Software", or "Services"), you acknowledge that you have read, understood, and agreed to these Terms of Use ("Terms") in their entirety. If you do not agree, you must immediately cease use and uninstall the application.</p>
+                    <p>These Terms form a legally binding agreement between you ("User" or "you") and <strong class="text-slate-100">Madhusudan Payra</strong>, the sole developer and owner of Dynamic Edge Gesture Control&trade; ("Developer", "we", "us", or "our"). By continuing to use the App after any update to these Terms, you accept the revised Terms as binding.</p>
                     <ul class="space-y-2 list-none pl-0">
-                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['✦']"><strong>No Data Collection:</strong> The Accessibility Service NEVER reads, collects, monitors, logs, stores, or transmits sensitive personal data, keystrokes, passwords, financial details, messages, or screen contents.</li>
-                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['✦']"><strong>User Control:</strong> Enabling Accessibility is entirely voluntary and can be enabled or revoked at any time via Android system settings.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Binding Agreement:</strong> These Terms supersede all prior verbal or written representations regarding the App.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Implicit Acceptance:</strong> Continued use after changes constitutes full legal acceptance of the revised Terms, even without an explicit acknowledgment prompt.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Capacity to Contract:</strong> By using this App, you represent that you have the legal capacity to enter into binding agreements under the laws of your jurisdiction.</li>
                     </ul>
                 </div>
             </section>
 
-            <!-- Section 2: Microphone & Voice Assistant Privacy -->
-            <section id="voice" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+            <!-- Section 2: License Grant & Restrictions -->
+            <section id="license" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
                 <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
                 <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
                     <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">02</span>
-                    Microphone & Voice Assistant Privacy
+                    License Grant &amp; Restrictions
                 </h2>
                 <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
-                    <p>
-                        The voice command assistant parses spoken trigger phrases using on-device, rule-based algorithms to set alarms, launch navigation, or execute gestures.
-                    </p>
-                    <ul class="space-y-2 list-none pl-0">
-                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['✦']"><strong>Local Audio Processing:</strong> Voice input is never uploaded to remote cloud servers, never monitored for behavioral profiling, and never sold to third parties.</li>
-                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['✦']"><strong>Audio Focus Management:</strong> The app manages audio focus during speech synthesis to prevent audio bleed and protect your listening experience.</li>
-                    </ul>
+                    <p>Subject to your full compliance with these Terms, the Developer grants you a <strong class="text-slate-100">limited, non-exclusive, non-transferable, non-sublicensable, revocable personal license</strong> to install and use one copy of the App on Android devices you personally own or control, solely for your lawful personal, non-commercial use.</p>
+                    <div>
+                        <strong class="text-slate-100 block mb-2">You are expressly prohibited from:</strong>
+                        <ul class="space-y-2 pl-4 list-disc text-slate-300 text-xs sm:text-sm">
+                            <li>Copying, distributing, selling, sublicensing, renting, leasing, or lending the App or its license to any third party.</li>
+                            <li>Using the App for any commercial purpose, including in enterprise, industrial, or institutional environments, without explicit written authorization from the Developer.</li>
+                            <li>Removing, altering, or obscuring any proprietary notices, trademarks, copyright notices, watermarks, or branding embedded in or displayed by the App.</li>
+                            <li>Publishing, sharing, mirroring, or hosting modified or unmodified copies of the App's APK or any part of its binary distribution on any platform.</li>
+                            <li>Using automated bots, scripts, crawlers, or scraping tools against the App or any associated web pages or APIs.</li>
+                            <li>Attempting to gain unauthorized access to any system, server, or backend connected to the App's telemetry, crash reporting, or diagnostics infrastructure.</li>
+                            <li>Using the App in any way that violates applicable local, national, or international laws, including privacy, safety, or consumer protection statutes.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-blue-500/10 border border-blue-500/20 p-3.5 sm:p-4 rounded-xl text-xs sm:text-sm text-blue-200">
+                        <strong>Ownership Notice:</strong> This license does not transfer any ownership in the App or its underlying intellectual property to you. All rights not expressly granted herein are reserved by the Developer.
+                    </div>
                 </div>
             </section>
 
-            <!-- Section 3: System Overlays & Edge Trigger Zones -->
-            <section id="overlays" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+            <!-- Section 3: Acceptable Use Policy -->
+            <section id="acceptable-use" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
                 <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
                 <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
                     <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">03</span>
-                    System Overlays & Edge Trigger Zones
+                    Acceptable Use Policy
                 </h2>
                 <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
-                    <p>
-                        EDGE creates interactive touch trigger zones over other applications using the "Display over other apps" (<code>SYSTEM_ALERT_WINDOW</code>) permission.
-                    </p>
-                    <ul class="space-y-2 list-none pl-0">
-                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['✦']"><strong>Touch Interaction & Sensitivity:</strong> The user is responsible for positioning trigger zones, adjusting touch dimensions/sensitivity, and setting per-app exclusions (e.g. for full-screen games or software keyboards) to avoid unintended touch conflicts.</li>
-                    </ul>
+                    <p>EDGE is designed exclusively to enhance your personal device control, navigation, and productivity through gesture-based automation and system-level shortcuts. Use of the App for any harmful, deceptive, or illegal purpose is strictly forbidden.</p>
+                    <div>
+                        <strong class="text-slate-100 block mb-2">Prohibited conduct includes, but is not limited to:</strong>
+                        <ul class="space-y-2 pl-4 list-disc text-slate-300 text-xs sm:text-sm">
+                            <li>Configuring gestures, shortcuts, voice commands, or automated actions to intercept, record, or monitor other users' activity without their knowledge and consent.</li>
+                            <li>Using the App to circumvent, bypass, or undermine the security, authentication, access controls, or policies of any third-party application or device.</li>
+                            <li>Deploying the App in contexts requiring certified medical or safety-critical device reliability (e.g., medical equipment, life-safety systems, or aviation control).</li>
+                            <li>Using the App while operating a vehicle, aircraft, boat, or any motorized device in a manner that endangers yourself or others. You accept sole liability for any consequences.</li>
+                            <li>Using automation features to perform actions that violate the terms of service of any other application installed on your device.</li>
+                            <li>Exploiting security vulnerabilities discovered in the App rather than responsibly disclosing them to the Developer via the contact email.</li>
+                            <li>Engaging in any conduct that could damage, disable, overburden, or impair the App or third-party systems connected through it.</li>
+                        </ul>
+                    </div>
+                    <p>We reserve the right to investigate reports of abuse and, where technically feasible, remotely disable access to specific features for confirmed abusive users — in compliance with applicable law.</p>
                 </div>
             </section>
 
-            <!-- Section 4: In-App Purchases, Subscriptions & Ad-Unlocks -->
-            <section id="billing" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+            <!-- Section 4: Microphone & Voice Assistant Privacy -->
+            <section id="voice" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
                 <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
                 <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
                     <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">04</span>
-                    In-App Purchases, Subscriptions & Ad-Unlocks
+                    Microphone &amp; Voice Assistant Terms
                 </h2>
                 <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
-                    <p>
-                        All payments for Lifetime licenses, Yearly subscriptions, and Pro features are processed exclusively through Google Play Billing.
-                    </p>
+                    <p>The in-app voice command assistant parses spoken trigger phrases using fully on-device, rule-based voice activity detection (VAD) algorithms to set alarms, launch navigation, trigger gestures, or execute user-defined shortcuts.</p>
                     <ul class="space-y-2 list-none pl-0">
-                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['✦']"><strong>Cancellations & Refunds:</strong> Governed strictly by Google Play's standard billing policies and consumer refund terms.</li>
-                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['✦']"><strong>Rewarded Ad Features:</strong> Certain premium capabilities can be unlocked temporarily by watching rewarded video ads. Such unlocks remain active for the stated session duration.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Local Audio Processing Only:</strong> Voice input is never uploaded to remote cloud servers, never retained beyond the active recognition session (RAM-only buffer), never used for behavioral profiling, and never sold or shared with third parties.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>No Continuous Listening:</strong> The microphone is activated only when you explicitly enable voice trigger mode and is automatically deactivated according to your configured timeout settings or when you disable the mode.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Audio Focus Management:</strong> The App manages audio focus during speech synthesis playback to prevent audio bleed, protecting your listening privacy from unauthorized audio capture during TTS playback.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>User Responsibility:</strong> You are solely responsible for ensuring voice-triggered actions comply with your local eavesdropping, wiretapping, and privacy recording laws when using the App in environments with other individuals present.</li>
                     </ul>
                 </div>
             </section>
 
-            <!-- Section 5: Third-Party Services & Ad Networks -->
-            <section id="thirdparty" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+            <!-- Section 5: Camera, Photo & Video Capture -->
+            <section id="camera" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
                 <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
                 <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
                     <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">05</span>
-                    Third-Party Services & Ad Networks
+                    Camera, Photo &amp; Video Capture
                 </h2>
-                <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-4">
-                    EDGE integrates reputable third-party partners for crash diagnostics, telemetry, and advertising. Please review their respective policies:
-                </p>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+                    <p>When you configure gesture or voice shortcuts to trigger camera captures (still photos or video clips), the App interfaces with your device's camera hardware exclusively to fulfill your requested action. All resulting media files are saved 100% on-device to your selected storage location (Gallery or App-private directory).</p>
+                    <ul class="space-y-2 list-none pl-0">
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Zero Cloud Upload:</strong> No photo, video, thumbnail, or camera feed is ever transmitted to any remote server, cloud storage, or third-party service by this App. Upload to cloud services (e.g. Google Photos) is handled exclusively by your device's own native cloud backup settings, over which EDGE has no control.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>User Consent Responsibility:</strong> You are solely and entirely responsible for obtaining any necessary consent from persons who may be photographed or recorded using gesture-triggered captures. The Developer accepts no liability for any privacy violations, unauthorized recordings, or legal consequences arising from your use of camera capture features.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Foreground Service Notice:</strong> When camera capture is active as a gesture action, a foreground service notification is displayed on your device as required by Android OS policy.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Legal Use Only:</strong> Camera and recording features must only be used in full compliance with the applicable laws and regulations of your jurisdiction, including recording consent and wiretapping statutes.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 6: System Overlays & Edge Trigger Zones -->
+            <section id="overlays" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
+                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">06</span>
+                    System Overlays &amp; Edge Trigger Zones
+                </h2>
+                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+                    <p>EDGE creates interactive transparent touch-detection trigger zones over other applications using the Android <code class="bg-slate-800 text-blue-300 px-1.5 py-0.5 rounded text-xs">SYSTEM_ALERT_WINDOW</code> ("Display over other apps") permission. These zones have configurable position, size, visibility, and sensitivity parameters.</p>
+                    <ul class="space-y-2 list-none pl-0">
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>User Configuration Responsibility:</strong> You are responsible for positioning trigger zones, adjusting touch dimensions and sensitivity, and configuring per-app exclusions (e.g. for full-screen games, video players, banking apps, or software keyboards) to prevent unintended touch conflicts.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>No Third-Party Interference:</strong> Overlay zones are touch-interception layers only. They do not inject code into, read data from, monitor the UI state of, or interact with the content of any underlying application.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>System Stability:</strong> The Developer is not liable for touch conflicts, accidental activations, or app behavior changes caused by your overlay configuration. You accept full responsibility for your trigger zone customization.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 7: In-App Purchases, Subscriptions & Ad-Unlocks -->
+            <section id="billing" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
+                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">07</span>
+                    In-App Purchases, Subscriptions &amp; Ad-Unlocks
+                </h2>
+                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+                    <p>All payments for Lifetime licenses, Yearly subscriptions, and Pro feature unlocks are processed exclusively through Google Play Billing. The Developer does not collect, store, or have access to any payment card details, bank account information, or financial credentials.</p>
+                    <ul class="space-y-2 list-none pl-0">
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Cancellations &amp; Refunds:</strong> All cancellations, subscription management, and refund requests are governed by Google Play's standard billing policies and consumer refund terms. For refund requests, visit <em>Google Play &rarr; Subscriptions &amp; purchases</em>.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Rewarded Ad Features:</strong> Certain premium capabilities can be unlocked temporarily by watching rewarded video advertisements. Such unlocks remain active for the disclosed session duration only and are non-transferable.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Subscription Auto-Renewal:</strong> Subscriptions auto-renew at the end of each billing period unless cancelled at least 24 hours before the renewal date through Google Play account settings.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>No Refunds for Feature Misuse:</strong> Purchases made while violating these Terms are non-refundable by the Developer. Refunds remain subject solely to Google Play's applicable policies.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Price Changes:</strong> We reserve the right to change pricing at any time. Active subscriptions will not have their pricing changed mid-cycle without notice.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 8: Third-Party Services & Ad Networks -->
+            <section id="thirdparty" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
+                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">08</span>
+                    Third-Party Services &amp; Ad Networks
+                </h2>
+                <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-4">EDGE integrates reputable third-party partners for crash diagnostics, anonymous telemetry, and advertising. Each partner operates under its own independent Privacy Policy; we encourage you to review them. The Developer is not responsible for data practices of these third parties beyond our disclosed integration scope.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
                     <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="glass-card p-3.5 rounded-xl flex items-center justify-between text-xs sm:text-sm text-blue-300 hover:text-blue-200">
                         <span>Google Play Services</span>
                         <svg class="w-3.5 h-3.5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
                     </a>
                     <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener noreferrer" class="glass-card p-3.5 rounded-xl flex items-center justify-between text-xs sm:text-sm text-blue-300 hover:text-blue-200">
                         <span>Google AdMob</span>
+                        <svg class="w-3.5 h-3.5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                    </a>
+                    <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer" class="glass-card p-3.5 rounded-xl flex items-center justify-between text-xs sm:text-sm text-blue-300 hover:text-blue-200">
+                        <span>Firebase Crashlytics &amp; Analytics</span>
                         <svg class="w-3.5 h-3.5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
                     </a>
                     <a href="https://www.facebook.com/about/privacy/" target="_blank" rel="noopener noreferrer" class="glass-card p-3.5 rounded-xl flex items-center justify-between text-xs sm:text-sm text-blue-300 hover:text-blue-200">
@@ -326,162 +378,275 @@
                         <svg class="w-3.5 h-3.5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
                     </a>
                 </div>
+                <p class="text-slate-400 text-xs sm:text-sm">Third-party ad networks may use your Google Advertising ID (GAID) to serve personalized ads. You may reset or opt out of ad personalization via <em>Android Settings &rarr; Google &rarr; Ads</em>. The Developer does not control third-party advertising SDK data practices beyond what is disclosed in our Privacy Policy.</p>
             </section>
 
-            <!-- Section 6: Tasker & Third-Party Automations -->
+            <!-- Section 9: Tasker & Third-Party Automations -->
             <section id="automations" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
                 <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
                 <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
-                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">06</span>
-                    Tasker & Third-Party Automations
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">09</span>
+                    Tasker &amp; Third-Party Automations
                 </h2>
                 <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
-                    <p>
-                        EDGE allows configuring custom shortcuts, broadcast intents, and Tasker task triggers.
-                    </p>
+                    <p>EDGE allows configuring custom keyboard shortcuts, broadcast intents, Android deep links, and Tasker task triggers that can initiate system actions, modify device settings, or communicate with other installed applications via local Inter-Process Communication (IPC).</p>
                     <ul class="space-y-2 list-none pl-0">
-                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['✦']"><strong>User Responsibility:</strong> You assume full responsibility for any automated actions, system setting toggles, or data modifications initiated by user-defined Tasker scripts or third-party shortcuts.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>User's Sole Responsibility:</strong> You assume full responsibility for any automated actions, system setting changes, data modifications, or inter-app communications initiated by your user-defined Tasker scripts, broadcast intents, or third-party shortcuts configured through EDGE.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>No Monitoring:</strong> EDGE does not inspect, log, or monitor the content, payload, or results of automation intents beyond what is necessary to confirm dispatch. All automation logic is evaluated locally on your device.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Third-Party App Compliance:</strong> You are responsible for ensuring that automation actions triggered through EDGE comply with the Terms of Service of the targeted third-party applications. The Developer accepts no liability for violations of third-party app policies caused by your automation configurations.</li>
                     </ul>
                 </div>
             </section>
 
-            <!-- Section 7: Local Storage & Backup Security -->
+            <!-- Section 10: Local Storage & Backup Security -->
             <section id="storage" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
                 <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
                 <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
-                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">07</span>
-                    Local Storage & Backup Security
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">10</span>
+                    Local Storage &amp; Backup Security
                 </h2>
                 <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
-                    <p>
-                        All configurations and gestures are stored on-device in local app preferences. When exporting backups (<code>edgeseek_backup.json</code>), files are saved directly to your local file system.
-                    </p>
+                    <p>All App configurations, gesture profiles, shortcut mappings, custom labels, and user preferences are stored exclusively on your device in Android's protected application data directory (app-internal storage) and/or Android Shared Preferences.</p>
                     <ul class="space-y-2 list-none pl-0">
-                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['✦']"><strong>Data Protection:</strong> The developer does not maintain cloud copies of your custom configurations; users are responsible for securing their exported backup files.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Backup Exports:</strong> When exporting configuration backups (<code class="bg-slate-800 text-blue-300 px-1 rounded text-xs">edgeseek_backup.json</code>), files are saved directly to your locally selected file system path. The Developer maintains no cloud copies of your backup data.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>User's Security Responsibility:</strong> You are solely responsible for securing, encrypting, and safely storing any exported backup files. The Developer is not liable for data loss or unauthorized access resulting from lost, leaked, or improperly secured backup files.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Auto-Purge on Uninstall:</strong> All App data stored in Android's internal app directory is automatically and irreversibly purged by the Android OS upon uninstallation. The Developer has no ability to recover data after uninstall.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Android Auto-Backup:</strong> Device-level Android Auto Backup may back up app preferences to your Google account per your device's backup settings. This is a device OS feature outside EDGE's direct control.</li>
                     </ul>
                 </div>
             </section>
 
-            <!-- Section 8: No Modifications, Reverse Engineering & AI/ML Restrictions -->
-            <section id="reverse-engineering" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden border-2 border-amber-500/30">
+            <!-- Section 11: No Modifications, Reverse Engineering & AI/ML Restrictions -->
+            <section id="reverse-engineering" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden border-2 critical-border">
                 <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-amber-500 to-orange-500"></div>
                 <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
-                    <span class="text-amber-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-amber-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-amber-500/20">08</span>
-                    No Modifications, Reverse Engineering & AI/ML Restrictions
+                    <span class="text-amber-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-amber-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-amber-500/20">11</span>
+                    No Modifications, Reverse Engineering &amp; AI/ML Restrictions
                 </h2>
 
                 <!-- Plain-English Callout Box -->
                 <div class="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-amber-500/10 border border-amber-500/25 mb-6 text-amber-200">
                     <div class="flex items-center gap-2 text-amber-300 font-bold text-xs sm:text-sm mb-2.5">
-                        <span aria-hidden="true">💡</span>
+                        <span aria-hidden="true">&#128161;</span>
                         <span>Summary (What this means):</span>
                     </div>
                     <ul class="space-y-2 text-xs sm:text-sm leading-relaxed text-amber-100/90 list-none pl-0">
-                        <li class="relative pl-5 before:absolute before:left-0 before:text-amber-400 before:content-['•']">We invest heavily in our proprietary technology and strictly prohibit recreating, decompiling, or cloning our software.</li>
-                        <li class="relative pl-5 before:absolute before:left-0 before:text-amber-400 before:content-['•']">EDGE's tools—including gesture controls, navigation triggers, voice actions, automation shortcuts, audio recording, video recording, and camera capture—are designed strictly for your personal lawful productivity, never to harvest data or build AI/ML training datasets.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-amber-400 before:content-['&bull;']">We invest heavily in our proprietary technology and strictly prohibit recreating, decompiling, cloning, or scraping our software.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-amber-400 before:content-['&bull;']">EDGE's tools are designed strictly for your personal lawful productivity, never to harvest training data or improve competing AI/ML systems.</li>
                     </ul>
                 </div>
 
                 <!-- Formal Legal Clauses -->
                 <div class="space-y-4 text-slate-300 text-xs sm:text-sm leading-relaxed">
-                    <p>
-                        <strong class="text-slate-100">Confidential & Proprietary Information:</strong> Certain elements of the Services and Software constitute our (or our licensors') confidential and proprietary information.
-                    </p>
+                    <p><strong class="text-slate-100">Confidential &amp; Proprietary Information:</strong> Certain elements of the Services and Software constitute our (or our licensors') confidential and proprietary information. These include but are not limited to: gesture recognition algorithms, trigger zone logic, voice activation systems, behavioral heuristics, UI/UX architecture, source code, compiled binaries, configuration schemas, data structures, and underlying methods.</p>
                     <div>
                         <strong class="text-slate-100 block mb-2">Prohibited Activities:</strong> Except as expressly permitted in these Terms, you must not (and must not allow third parties to):
-                        <ul class="space-y-2 pl-4 list-disc text-slate-300">
-                            <li><strong>(A)</strong> Modify, port, adapt, or translate any portion of the Services or Software;</li>
-                            <li><strong>(B)</strong> Reverse engineer (including but not limited to monitoring or tracking the inputs and outputs flowing through a system or an application in order to recreate that system), decompile, disassemble, or otherwise attempt to discover, within any Service or Software, the source code, data representations or underlying algorithms, processes, methods, and any other portion of such Service or Software; or</li>
-                            <li><strong>(C)</strong> Use the Services or Software, or any content, data, output, or other information received or derived from the Services or Software, to directly or indirectly create, train, test, or otherwise improve any machine learning algorithms or artificial intelligence system, including but not limited to any architectures, models, or weights.</li>
+                        <ul class="space-y-2 pl-4 list-disc text-slate-300 mt-2">
+                            <li><strong>(A)</strong> Modify, port, adapt, translate, create derivative works of, or otherwise alter any portion of the Services or Software;</li>
+                            <li><strong>(B)</strong> Reverse engineer (including but not limited to monitoring or tracking the inputs and outputs flowing through a system or an application in order to recreate that system), decompile, disassemble, or otherwise attempt to discover, within any Service or Software, the source code, data representations, or underlying algorithms, processes, methods, and any other portion of such Service or Software;</li>
+                            <li><strong>(C)</strong> Use the Services or Software, or any content, data, output, or other information received or derived from the Services or Software, to directly or indirectly create, train, test, fine-tune, distill, or otherwise improve any machine learning algorithm or artificial intelligence system, including but not limited to any model architectures, weights, embeddings, or datasets; or</li>
+                            <li><strong>(D)</strong> Use any traffic analysis, network interception, Man-in-the-Middle proxies, instrumentation frameworks (such as Frida or Xposed), or memory inspection tools to observe or manipulate the runtime behavior of the App for any purpose not expressly authorized.</li>
                         </ul>
                     </div>
-                    <p>
-                        <strong class="text-slate-100">Statutory Interoperability Requests:</strong> If the laws of your jurisdiction grant you the right to decompile the Services or Software to obtain information necessary to render the licensed portions interoperable with other software, you must first submit a prior written request to us. We may, in our discretion, either provide such information to you or impose reasonable conditions, including a reasonable fee, on your decompilation to ensure that our and our licensors' and suppliers' proprietary rights are protected.
-                    </p>
-                    <p>
-                        <strong class="text-slate-100">Intellectual Property Rights & DMCA:</strong> We respect the Intellectual Property Rights of others, and we expect our users to do the same. We will respond to clear notices of copyright infringement consistent with the Digital Millennium Copyright Act (DMCA).
-                    </p>
-                </div>
-            </section>
-
-            <!-- Section 9: Complete Disclaimer of Legal Liability & Hold Harmless -->
-            <section id="liability" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
-                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
-                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
-                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">09</span>
-                    Zero Legal Liability & Hold Harmless
-                </h2>
-                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
-                    <p>
-                        To the absolute maximum extent permitted by applicable law, the developer, creators, maintainers, and affiliates of this application shall NOT be held legally responsible or liable for any legal issues, disputes, claims, demands, lawsuits, regulatory penalties, fines, losses, or damages of any nature.
-                    </p>
-                    <ul class="space-y-2.5 list-none pl-0 text-xs sm:text-sm">
-                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['✦']"><strong>No Liability for Direct or Indirect Harm:</strong> The developer shall not be liable for any direct, indirect, incidental, consequential, special, punitive, or exemplary damages—including but not limited to device damage, hardware failure, operating system crash, data loss or corruption, battery degradation, loss of profits, third-party software interference, traffic/driving incidents, or personal injury—arising out of or related to your installation, access to, use of, misuse of, or inability to use this application.</li>
-                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['✦']"><strong>Provided "AS IS":</strong> This application and all associated features (gestures, overlays, voice commands, automation actions) are provided strictly on an "AS IS" and "AS AVAILABLE" basis without any warranties of merchantability, fitness for a particular purpose, non-infringement, or error-free operation.</li>
-                    </ul>
-                </div>
-            </section>
-
-            <!-- Section 10: User Indemnification & Defense of Developer -->
-            <section id="indemnity" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
-                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
-                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
-                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">10</span>
-                    User Indemnification & Defense of Developer
-                </h2>
-                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
-                    <p>
-                        By downloading, installing, configuring, or using this application, you expressly and irrevocably agree to defend, indemnify, and hold harmless the developer and any affiliated contributors from and against any and all legal actions, claims, liabilities, lawsuits, judgments, regulatory penalties, damages, losses, costs, and expenses (including reasonable attorney fees and court costs) arising out of or related to:
-                    </p>
-                    <ul class="space-y-2 pl-4 list-disc text-xs sm:text-sm text-slate-300">
-                        <li>Your access to, use of, or misuse of the application or its features.</li>
-                        <li>Any violation of these Terms of Use or third-party rights by you.</li>
-                        <li>Your breach of any applicable local, national, or international laws, driving/operating safety statutes, or privacy regulations.</li>
-                        <li>Any custom actions, automation tasks, Tasker scripts, broadcast intents, or system settings modified or executed via your device.</li>
-                    </ul>
-                </div>
-            </section>
-
-            <!-- Section 11: Compliance with Local Laws & Severability -->
-            <section id="compliance" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
-                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
-                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
-                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">11</span>
-                    Compliance with Local Laws & Severability
-                </h2>
-                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
-                    <p>
-                        <strong>Sole & Exclusive Remedy:</strong> If you are dissatisfied with any aspect of the application, or claim any grievance or issue, your sole and exclusive remedy under law is to immediately discontinue use of the application and uninstall it from your device.
-                    </p>
-                    <p>
-                        <strong>Local Law Compliance:</strong> You bear the sole and entire responsibility for verifying and ensuring that your use of this application complies with all applicable laws and regulations in your jurisdiction.
-                    </p>
-                    <p>
-                        <strong>Severability:</strong> If any provision of these Terms is deemed unlawful, void, or unenforceable by any court of competent jurisdiction, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions shall continue in full legal force and effect.
-                    </p>
-                    <div class="bg-blue-500/10 border border-blue-500/20 p-3.5 sm:p-4 rounded-xl text-xs sm:text-sm text-blue-200">
-                        By continuing to use this application, you irrevocably acknowledge that you have read, understood, and agreed to release the developer from any and all legal liability.
+                    <p><strong class="text-slate-100">Statutory Interoperability Requests:</strong> If the laws of your jurisdiction grant you the right to decompile the Services or Software to obtain information necessary to render the licensed portions interoperable with other software, you must first submit a prior written request to us. We may, in our discretion, either provide such information to you or impose reasonable conditions, including a reasonable fee, on your decompilation to ensure that our and our licensors' and suppliers' proprietary rights are protected.</p>
+                    <p><strong class="text-slate-100">Intellectual Property Rights &amp; DMCA:</strong> We respect the Intellectual Property Rights of others, and we expect our users to do the same. We will respond to clear notices of copyright infringement consistent with the Digital Millennium Copyright Act (DMCA). DMCA takedown notices should be directed to our contact email listed in Section 21.</p>
+                    <div class="p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-200 text-xs sm:text-sm">
+                        <strong>Enforcement:</strong> Violations of this section may result in immediate license termination, legal action seeking injunctive relief and/or monetary damages, and referral to appropriate law enforcement authorities.
                     </div>
                 </div>
             </section>
 
-            <!-- Section 12: Contact & Support -->
-            <section id="contact" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden border-2 border-blue-500/30">
+            <!-- Section 12: Beta, Experimental & Preview Features -->
+            <section id="beta" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
                 <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
                 <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
                     <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">12</span>
-                    Contact & Legal Inquiries
+                    Beta, Experimental &amp; Preview Features
                 </h2>
-                <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6">
-                    If you have questions, inquiries, or statutory requests regarding these Terms of Use, please contact support:
-                </p>
-                
+                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+                    <p>From time to time, EDGE may include features marked as "Beta," "Experimental," "Preview," or "Early Access." These features are provided for evaluation and feedback purposes and may be incomplete, unstable, or subject to significant change or removal without notice.</p>
+                    <ul class="space-y-2 list-none pl-0">
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Higher Risk Acknowledgment:</strong> By enabling Beta features, you expressly acknowledge that they may cause unexpected behavior, device instability, data loss, or system interruption, and you use them entirely at your own risk.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>No SLA or Warranty:</strong> Beta features are expressly excluded from any implied warranty or service level obligation. The Developer does not guarantee their reliability, continued availability, or suitability for any particular purpose.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Feedback License:</strong> If you submit feedback, suggestions, bug reports, or ideas about Beta features or the App generally, you grant the Developer a perpetual, irrevocable, royalty-free, worldwide license to use, incorporate, and exploit that feedback in any form without compensation or attribution obligations.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Discontinuation Right:</strong> The Developer may discontinue, modify, or graduate any Beta feature to production or remove it permanently at any time, without liability to you.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 13: Age Requirements & Child Safety -->
+            <section id="age" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
+                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">13</span>
+                    Age Requirements &amp; Child Safety
+                </h2>
+                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+                    <p>Dynamic Edge Gesture Control is intended exclusively for users who are at least <strong class="text-slate-100">13 years of age</strong> (or the applicable minimum digital consent age in your country, whichever is higher, e.g., 16 in the EU under GDPR). The App is not directed at children under the applicable age threshold.</p>
+                    <ul class="space-y-2 list-none pl-0">
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>No Child Data Collection:</strong> We do not knowingly collect personal information from users under the applicable minimum age. If you believe a minor has used or installed the App, please contact us immediately and we will take appropriate steps to address the situation.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Parental Responsibility:</strong> Parents and legal guardians are responsible for monitoring and controlling App access for minor users under their supervision and for ensuring appropriate use consistent with these Terms.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>COPPA Compliance:</strong> In the United States, we comply with the Children's Online Privacy Protection Act (COPPA). In the EU, we comply with GDPR Article 8 provisions regarding children's data.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 14: Zero Legal Liability & Hold Harmless -->
+            <section id="liability" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
+                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">14</span>
+                    Disclaimer of Warranties &amp; Zero Legal Liability
+                </h2>
+                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+                    <p>To the absolute maximum extent permitted by applicable law, the Developer, contributors, and any affiliates of this application <strong class="text-slate-100">shall NOT be held legally responsible or liable</strong> for any claims, lawsuits, regulatory penalties, fines, losses, or damages of any nature.</p>
+                    <ul class="space-y-2.5 list-none pl-0 text-xs sm:text-sm">
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>No Liability for Direct or Indirect Harm:</strong> The Developer shall not be liable for any direct, indirect, incidental, consequential, special, punitive, or exemplary damages — including device damage, hardware failure, OS crash, data loss or corruption, battery degradation, loss of profits, business interruption, third-party software interference, traffic or driving incidents, emotional distress, or personal injury — arising from your use, misuse, or inability to use this App.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Provided "AS IS":</strong> This App and all features (gestures, overlays, voice commands, camera triggers, automation actions) are provided strictly on an "AS IS" and "AS AVAILABLE" basis, <em>without any warranties</em> of merchantability, fitness for a particular purpose, non-infringement, or error-free or uninterrupted operation.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>No Guarantee of Availability:</strong> We do not guarantee continuous, uninterrupted, or error-free operation. Maintenance, updates, OS changes, or technical failures may render features temporarily unavailable without prior notice or liability.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Liability Cap:</strong> To the extent any liability is found despite this disclaimer, the Developer's total cumulative liability shall not exceed the total amount paid by you for the App in the twelve (12) months preceding the claim. If you have not paid, the cap is zero.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 15: User Indemnification & Defense -->
+            <section id="indemnity" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
+                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">15</span>
+                    User Indemnification &amp; Defense of Developer
+                </h2>
+                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+                    <p>By downloading, installing, configuring, or using this App, you expressly and irrevocably agree to <strong class="text-slate-100">defend, indemnify, and hold harmless</strong> the Developer and any affiliated contributors from and against any and all legal actions, claims, liabilities, lawsuits, judgments, regulatory penalties, damages, losses, costs, and expenses (including reasonable attorney fees and court costs) arising out of or related to:</p>
+                    <ul class="space-y-2 pl-4 list-disc text-xs sm:text-sm text-slate-300">
+                        <li>Your access to, use of, or misuse of the App or any of its features.</li>
+                        <li>Any violation of these Terms of Use or third-party rights by you.</li>
+                        <li>Your breach of any applicable local, national, or international laws, driving/operating safety statutes, privacy regulations, or recording consent laws.</li>
+                        <li>Any custom actions, automation tasks, Tasker scripts, broadcast intents, or system settings you modified or triggered using the App.</li>
+                        <li>Any content, media (photos, videos, audio), or data you captured, recorded, or transmitted using App features.</li>
+                        <li>Any dispute between you and any third party arising from your App usage.</li>
+                    </ul>
+                    <p>The Developer reserves the right to assume exclusive defense and control of any claim subject to indemnification; you shall cooperate fully with such defense efforts.</p>
+                </div>
+            </section>
+
+            <!-- Section 16: App Updates, Modifications & Feature Changes -->
+            <section id="updates" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
+                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">16</span>
+                    App Updates, Modifications &amp; Feature Changes
+                </h2>
+                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+                    <p>The Developer reserves the right, at any time and without obligation to you, to:</p>
+                    <ul class="space-y-2 pl-4 list-disc text-xs sm:text-sm text-slate-300">
+                        <li>Modify, add, suspend, deprecate, or permanently remove any feature, function, or capability of the App.</li>
+                        <li>Release new versions, patches, or updates that may alter the App's interface, behavior, or permission requirements.</li>
+                        <li>Update these Terms of Use. The "Last Updated" date at the bottom of this page reflects the most recent revision. Continued use constitutes acceptance.</li>
+                        <li>Change subscription pricing or feature availability for free-tier users at any time with reasonable advance notice where required by applicable law.</li>
+                    </ul>
+                    <p>We strongly recommend keeping the App updated to the latest version via Google Play to receive security patches, bug fixes, and performance improvements. Older versions may lose functionality or compatibility with newer Android OS releases.</p>
+                </div>
+            </section>
+
+            <!-- Section 17: Termination of License -->
+            <section id="termination" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
+                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">17</span>
+                    Termination of License
+                </h2>
+                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+                    <p>These Terms and the license granted herein are effective until terminated. Your rights under these Terms will automatically and immediately terminate, without notice, if:</p>
+                    <ul class="space-y-2 pl-4 list-disc text-xs sm:text-sm text-slate-300">
+                        <li>You fail to comply with any provision of these Terms.</li>
+                        <li>You engage in reverse engineering, unauthorized redistribution, or AI/ML training activities prohibited in Section 11.</li>
+                        <li>You use the App in any manner that could expose the Developer to legal liability.</li>
+                        <li>The Developer discontinues the App from distribution for any reason.</li>
+                    </ul>
+                    <p>Upon termination of your license: (a) all rights granted to you under these Terms cease immediately; (b) you must immediately stop all use of the App and permanently uninstall it from all your devices; (c) Sections pertaining to Intellectual Property, Disclaimer, Indemnity, and Governing Law shall survive termination and remain fully enforceable.</p>
+                </div>
+            </section>
+
+            <!-- Section 18: Governing Law & Dispute Resolution -->
+            <section id="disputes" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
+                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">18</span>
+                    Governing Law &amp; Dispute Resolution
+                </h2>
+                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+                    <p>These Terms shall be governed by and construed in accordance with the laws of <strong class="text-slate-100">India</strong>, without regard to its conflict of law principles. You agree to submit to the exclusive jurisdiction of the courts of competent jurisdiction in India for the resolution of any dispute arising from these Terms or your use of the App.</p>
+                    <ul class="space-y-2 list-none pl-0">
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Informal Resolution First:</strong> Before initiating any formal legal action, you agree to first attempt to resolve any dispute informally by contacting the Developer at <code class="bg-slate-800 text-blue-300 px-1.5 py-0.5 rounded text-xs">m.payra859appsupport@gmail.com</code>, providing a written notice describing the dispute and your desired resolution. The Developer will attempt to respond within 30 days.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>No Class Actions:</strong> You agree that any legal proceedings shall be conducted solely on an individual basis and not as part of any class, consolidated, or representative action. You waive any right to participate in class action litigation against the Developer.</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Statutory Limitation Periods:</strong> Any claim arising from these Terms or your use of the App must be filed within one (1) year after the cause of action arises, except where prohibited by mandatory local statutory limitation periods (such as Section 28 of the Indian Contract Act, 1872).</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 19: Export Compliance -->
+            <section id="export" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
+                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">19</span>
+                    Export Compliance &amp; Restricted Use
+                </h2>
+                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+                    <p>The App may be subject to export control laws and regulations. You represent that you are not located in, under the control of, or a national or resident of any country subject to trade or technology export restrictions, and that you will not transfer, export, or re-export the App to any restricted party or country in violation of applicable laws.</p>
+                    <ul class="space-y-2 list-none pl-0">
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>Sanctions Compliance:</strong> You represent you are not listed on any government-issued denied-party, sanctions, or restricted entity list (including U.S. OFAC Specially Designated Nationals list or equivalent).</li>
+                        <li class="relative pl-5 before:absolute before:left-0 before:text-blue-400 before:content-['&#10022;']"><strong>No Military or Surveillance Use:</strong> The App must not be used for any military, intelligence, mass surveillance, or state-sponsored monitoring purpose.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 20: Compliance with Local Laws, Force Majeure & Severability -->
+            <section id="compliance" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
+                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">20</span>
+                    Compliance, Force Majeure &amp; Severability
+                </h2>
+                <div class="space-y-3 sm:space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+                    <p><strong>Sole &amp; Exclusive Remedy:</strong> If you are dissatisfied with any aspect of the App or claim any grievance, your sole and exclusive remedy is to immediately discontinue use and uninstall the App from your device. No other remedy is available.</p>
+                    <p><strong>Local Law Compliance:</strong> You bear sole responsibility for verifying that your use complies with all applicable laws in your jurisdiction, including but not limited to: data privacy laws, recording consent statutes, traffic safety regulations, and telecommunications laws.</p>
+                    <p><strong>Force Majeure:</strong> The Developer shall not be liable for any delay or failure in performance caused by circumstances beyond our reasonable control, including natural disasters, governmental actions, internet or power outages, cyberattacks, strikes, or any other event of force majeure.</p>
+                    <p><strong>Entire Agreement:</strong> These Terms, together with the Privacy Policy, constitute the entire agreement between you and the Developer regarding the App and supersede all prior agreements, representations, or understandings.</p>
+                    <p><strong>Severability:</strong> If any provision of these Terms is found unlawful, void, or unenforceable by a court of competent jurisdiction, that provision shall be modified to the minimum extent necessary to make it enforceable. All remaining provisions shall continue in full legal force and effect.</p>
+                    <p><strong>Waiver:</strong> The Developer's failure to enforce any provision of these Terms on any occasion does not constitute a waiver of the Developer's right to enforce that provision on any subsequent occasion.</p>
+                    <div class="bg-blue-500/10 border border-blue-500/20 p-3.5 sm:p-4 rounded-xl text-xs sm:text-sm text-blue-200 mt-2">
+                        By continuing to use this application, you irrevocably acknowledge that you have read, understood, and agreed to release the Developer from any and all legal liability to the maximum extent permitted by applicable law.
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 21: Contact & Legal Inquiries -->
+            <section id="contact" class="policy-section glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 shadow-xl relative overflow-hidden border-2 border-blue-500/30">
+                <div class="absolute top-0 left-0 w-1 sm:w-1.5 h-full bg-gradient-to-b from-blue-500 to-indigo-500"></div>
+                <h2 class="text-lg sm:text-2xl font-bold text-slate-100 mb-3 sm:mb-4 flex items-center gap-2.5">
+                    <span class="text-blue-400 text-xs sm:text-sm font-extrabold uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 sm:py-1 rounded-md border border-blue-500/20">21</span>
+                    Contact &amp; Legal Inquiries
+                </h2>
+                <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-4">If you have questions, legal inquiries, DMCA notices, IP infringement reports, or statutory requests regarding these Terms of Use, please reach out:</p>
+
+                <!-- Developer Card -->
+                <div class="glass-card p-4 sm:p-5 rounded-xl sm:rounded-2xl mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white font-extrabold text-lg sm:text-xl shrink-0 shadow-lg">M</div>
+                        <div>
+                            <p class="text-slate-100 font-bold text-sm sm:text-base">Madhusudan Payra</p>
+                            <p class="text-slate-400 text-xs sm:text-sm">Solo Developer &amp; Owner &mdash; Dynamic Edge Gesture Control&trade;</p>
+                            <p class="text-blue-400 text-xs sm:text-sm mt-0.5">&#128205; India</p>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
                     <a id="contactSupportBtn" href="#" onclick="openSupportEmail(event)" class="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl sm:rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold text-xs sm:text-base shadow-lg shadow-blue-500/25 transition-all text-center" aria-label="Send support email">
                         <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
                         <span>Contact Support</span>
                     </a>
-                    
                     <button onclick="copyEmail()" class="inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl sm:rounded-2xl bg-slate-900 border border-slate-700 text-slate-300 font-medium hover:bg-slate-800 transition-all text-xs sm:text-sm text-center" aria-label="Copy email address to clipboard">
                         <span id="copyBtnText">Copy Email Address</span>
                     </button>
@@ -491,27 +656,26 @@
 
         <!-- Footer -->
         <footer class="text-center mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-slate-800/80 text-slate-500 text-xs sm:text-sm flex flex-col items-center gap-3">
-            
+
             <div class="flex flex-wrap items-center justify-center gap-2 mb-2">
                 <div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-800/60 border border-slate-700/50 text-[10px] sm:text-xs text-slate-400">
                     <svg class="w-3 h-3 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
                     <span>Last Updated: October 2026</span>
                 </div>
-
                 <a href="https://bullat859.github.io/privacy-policy/" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-800/60 border border-slate-700/50 text-[10px] sm:text-xs text-slate-400 hover:text-blue-300 hover:border-blue-500/40 hover:bg-blue-500/10 transition-all">
                     <span>Privacy Policy</span>
                     <svg class="w-2.5 h-2.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
                 </a>
             </div>
 
-            <p>&copy; 2026 <a href="https://play.google.com/store/apps/details?id=com.m.payra.gesture.control.app" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-blue-400 underline decoration-slate-700 underline-offset-4">Dynamic Edge Gesture Control</a>. All rights reserved.</p>
-            <p class="text-[11px] sm:text-xs text-slate-600 max-w-md mx-auto">Android, Google Play, Firebase, and AdMob are registered trademarks of Google LLC.</p>
+            <p>&copy; 2026 <a href="https://play.google.com/store/apps/details?id=com.m.payra.gesture.control.app" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-blue-400 underline decoration-slate-700 underline-offset-4">Dynamic Edge Gesture Control&trade;</a>. All rights reserved.</p>
+            <p class="text-[11px] sm:text-xs text-slate-500 max-w-md mx-auto">Dynamic Edge Gesture Control&trade; and EDGE are proprietary trademarks of Madhusudan Payra.</p>
             <p class="text-xs sm:text-sm text-slate-400 font-medium flex items-center justify-center gap-1.5 pt-1">
-                <span>❤️</span> from Madhusudan Payra
+                <span>&#10084;&#65039;</span> from Madhusudan Payra
             </p>
         </footer>
     </div>
-    
+
     <!-- Scroll to Top Button -->
     <button id="scrollTopBtn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="fixed bottom-6 right-6 p-3 rounded-full bg-blue-600/90 text-white shadow-lg shadow-blue-500/30 border border-blue-400/30 opacity-0 translate-y-10 pointer-events-none transition-all duration-300 z-50 hover:bg-blue-500" aria-label="Scroll to top of the page">
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7"/></svg>
@@ -521,7 +685,7 @@
     <script>
         function openSupportEmail(event) {
             event.preventDefault();
-            
+
             const ua = navigator.userAgent;
             let androidVersion = "Android";
             let deviceModel = "Android Device";
@@ -529,15 +693,13 @@
             if (/Android/i.test(ua)) {
                 const matchVer = ua.match(/Android\s([0-9\.]+)/);
                 if (matchVer) androidVersion = "Android " + matchVer[1];
-                
                 const matchModel = ua.match(/;\s?([^;]+)\sBuild\//);
                 if (matchModel) deviceModel = matchModel[1];
             }
 
             const subject = "Terms Inquiry - Dynamic Edge Gesture Control";
-            
-            const body = 
-`Hello Support Team,
+            const body =
+`Hello Madhusudan,
 
 [Describe your inquiry or question regarding the Terms of Use here]
 
@@ -545,7 +707,8 @@
 SYSTEM DIAGNOSTICS
 Device Model: ${deviceModel}
 Android Version: ${androidVersion}
-App Version: 
+App Version: [Please fill in your app version from About section]
+Inquiry Type: [ ] Legal   [ ] IP/DMCA   [ ] Licensing   [ ] Other
 ----------------------------------------`;
 
             const mailtoUrl = `mailto:m.payra859appsupport@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
@@ -555,10 +718,10 @@ App Version:
         async function copyEmail() {
             const email = "m.payra859appsupport@gmail.com";
             const btnText = document.getElementById('copyBtnText');
-            
+
             try {
                 await navigator.clipboard.writeText(email);
-                btnText.innerText = "Copied! ✓";
+                btnText.innerText = "Copied! \u2713";
             } catch (err) {
                 const tempInput = document.createElement('input');
                 tempInput.value = email;
@@ -566,20 +729,20 @@ App Version:
                 tempInput.select();
                 document.execCommand('copy');
                 document.body.removeChild(tempInput);
-                btnText.innerText = "Copied! ✓";
+                btnText.innerText = "Copied! \u2713";
             }
 
             setTimeout(() => {
                 btnText.innerText = "Copy Email Address";
             }, 3000);
         }
-        
+
         window.addEventListener('scroll', () => {
             const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
             const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             const scrolled = (winScroll / height) * 100;
             document.getElementById('progressBar').style.width = scrolled + '%';
-            
+
             const scrollTopBtn = document.getElementById('scrollTopBtn');
             if (winScroll > 300) {
                 scrollTopBtn.classList.remove('opacity-0', 'translate-y-10', 'pointer-events-none');
